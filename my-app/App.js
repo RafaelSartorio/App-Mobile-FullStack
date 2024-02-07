@@ -14,7 +14,7 @@ export default function App() {
           bgColor={"purple.400"}
           size={100}
         >         
-         </Button>
+        </Button>
 
         <Center >
           <FormControl isRequired>
@@ -22,7 +22,7 @@ export default function App() {
           <Input type="password" placeholder="pass"> </Input> 
           <FormControl.HelperText>Alguma coisa</FormControl.HelperText>
           </FormControl>
-         </Center>
+        </Center>
       </Box>
 
 
