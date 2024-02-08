@@ -11,16 +11,16 @@ export default function App() {
       >
         teste
         <Button
-          bgColor={"purple.400"}
+          bgColor={"red.500"}
           size={100}
-        >         
+        >teste
         </Button>
 
-        <Center >
+        <Center>
           <FormControl isRequired>
-          <FormControl.Label>Digite a sua senha </FormControl.Label>
-          <Input type="password" placeholder="pass"> </Input> 
-          <FormControl.HelperText>Alguma coisa</FormControl.HelperText>
+          <FormControl.Label>Digite a sua senha: </FormControl.Label>
+          <Input type="password" placeholder="Coloque sua senha aqui"> </Input> 
+          <FormControl.HelperText>* aqui serve para vc olocar a sua senha privada</FormControl.HelperText>
           </FormControl>
         </Center>
       </Box>
