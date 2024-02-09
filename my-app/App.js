@@ -20,7 +20,7 @@ export default function App() {
           <FormControl isRequired>
           <FormControl.Label>Digite a sua senha: </FormControl.Label>
           <Input type="password" placeholder="Coloque sua senha aqui"> </Input> 
-          <FormControl.HelperText>* aqui serve para vc olocar a sua senha privada</FormControl.HelperText>
+          <FormControl.HelperText>* aqui serve para vc colocar a sua senha privada</FormControl.HelperText>
           </FormControl>
         </Center>
       </Box>
